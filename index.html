@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>task7</title>
+</head>
+<body>
+    <header>
+        <div class="container mt-8">
+            <div class="header-item flex justify-center md:justify-between ml-0 md:ml-8 mr-0 md:mr-8">
+                <div class="items-center md:left-items flex justify-center md:justify-evenly">
+                    <img src="./assets/home-icon.png" class="mx-4">
+                    <div class="mx-4">
+                        <a href="#" class="mx-[3px] md:mx-4 font-semibold text-red-600 underline">Home</a>                        
+                        <a href="./shop.html" class="mx-[3px] md:mx-4 font-semibold">Shop</a>                        
+                        <a href="./blog.html" class="mx-[3px] md:mx-4 font-semibold">Blog</a>                        
+                        <a href="#" class="mx-[3px] md:mx-4 font-semibold">Pages </a>                        
+                        <a href="./about.html" class="mx-[3px] md:mx-4 font-semibold">About</a>                        
+                        <a href="./contact.html" class="mx-[3px] md:mx-4 font-semibold">Contact</a>                        
+                    </div>
+                </div>
+                <div class="hidden md:flex right-items">
+                    <img src="./assets/search-icon.png" class="w-7 mx-4">
+                    <img src="./assets/person-icon.svg" class="w-7 mx-4">
+                    <img src="./assets/heart.png" class="w-7 mx-4">
+                    <img src="./assets/bag-icon.svg" class="w-7 mx-4">
+                    <img src="./assets/drawer-icon.webp" class="w-7 mx-4">
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- This is the first slider -->
+
+<div class="border-[1px] border-[light-grey] p-2 mt-8 m-0 md:m-12">
+
+<div class="flex justify-center gap-14 slider bg-[#f5e6e0] h-full bg-[url('./assets/home-back-img.webp')] ">
+    <div class="ml-10 w-[40%] md: ml-5 slide-content md:w-[50%] item-center h-full mt-10">
+        <h6 class="font-semibold">New trend</h6>
+        <h2 class="text-2xl md:text-6xl">SUMMER SALE STYLISH</h2>
+        <h3 class="text-7xl font-bold">WOMENS</h3>
+        <p class="underline">DISCOVER MORE</p>
+    </div>
+    <div class="slider-img">
+        <img src="./assets/character-img.webp" class="w-[30%] md: w-[50%] mr-10 md:mr-0 ">
+    </div>
+</div>
+</div>
+<!-- This is the collection section -->
+
+<section class="collection-cards h-[100rem] md:h-[35rem] m-12 flex flex-col md:flex-row gap-4 mb-[10%] md: mb-12">
+    <div class="bg-[url('./assets/collection_grid_1.jpg')] h-[40rem] md:h-full w-[100%] md:w-6/12 bg-right bg-cover bg-no-repeat">
+        <div class="mt-[40%] md:mt-[60%] ml-12">
+            <p>HOT LIST</p>
+            <h2 class="text-2xl font-bold">WOMEN COLLECTION</h2>
+            <h3 class="font-semibold">Shop Now</h3>
+        </div>
+    </div>
+    <div class="w-[100%] md:w-6/12 h-full flex flex-col gap-4">
+        <div class="bg-[url('./assets/collection_grid_2.jpg')] w-[100%] md:w-full h-[30rem] md:h-1/2 bg-right bg-cover bg-no-repeat">
+            <div class="mt-[50%] md:mt-[24%] ml-12">
+                <p>HOT LIST</p>
+                <h2 class="text-2xl font-bold">MEN COLLECTION</h2>
+                <h3 class="font-semibold">Shop Now</h3>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row w-full h-1/2 gap-4">
+            <div class="w-[100%] md:w-1/2 h-full bg-[url('./assets/collection_grid_3.jpg')] bg-cover bg-no-repeat">
+                <div class="mt-[45%] ml-3">
+                    <p>HOT LIST</p>
+                    <h2 class="text-2xl font-bold">KIDS COLLECTION</h2>
+                    <h3 class="font-semibold">Shop Now</h3>
+                </div>
+            </div>
+            <div class="w-[100%] md:w-1/2 h-full bg-[url('./assets/collection_grid_3.jpg')] bg-cover bg-no-repeat">
+                <div class="mt-[45%] ml-3">
+                    <p>HOT LIST</p>
+                    <h2 class="text-2xl font-bold">KIDS COLLECTION</h2>
+                    <h3 class="font-semibold">Shop Now</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trendy product section -->
+
+<section class="md:mt-24">
+    <div class="text-center">
+        <h1 class="font-bold text-3xl">OUR TRENDY PRODUCTS</h1>
+    </div>
+    <div class="text-center mt-4">
+        <a class="m-4 font-semibold underline">ALL</a>
+        <a class="m-4 font-semibold">NEW ARRIVAL</a>
+        <a class="m-4 font-semibold">BEST SELLER</a>
+        <a class="m-4 font-semibold">TOP RATED</a>
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center md:justify-evenly mt-12">
+    <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+        <div>
+            <a><img class="w-[280px]" src="./assets/product_2-1.jpg"></a>
+        </div>
+        <div class="text-center md:text-left">
+            <p class="text-slate-400">Dresses</p>
+            <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+            <p class="font-semibold">$29</p>
+        </div>
+    </div>
+    <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+        <div>
+            <a><img class="w-[280px]" src="./assets/product_2-1.jpg"></a>
+        </div>
+        <div>
+            <p class="text-slate-400">Dresses</p>
+            <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+            <p class="font-semibold">$29</p>
+        </div>
+    </div>
+    <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+        <div>
+            <a><img class="w-[280px]" src="./assets/product_3-1.jpg"></a>
+        </div>
+        <div>
+            <p class="text-slate-400">Dresses</p>
+            <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+            <p class="font-semibold">$29</p>
+        </div>
+    </div>
+    <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+        <div>
+            <a><img class="w-[280px]" src="./assets/product_4-1.jpg"></a>
+        </div>
+        <div>
+            <p class="text-slate-400">Dresses</p>
+            <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+            <p class="font-semibold">$29</p>
+        </div>
+    </div>
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center md:justify-evenly mt-12">
+        <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+            <div>
+                <a><img class="w-[280px]" src="./assets/product_2-1.jpg"></a>
+            </div>
+            <div>
+                <p class="text-slate-400">Dresses</p>
+                <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+                <p class="font-semibold">$29</p>
+            </div>
+        </div>
+        <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+            <div>
+                <a><img class="w-[280px]" src="./assets/product_3-1.jpg"></a>
+            </div>
+            <div>
+                <p class="text-slate-400">Dresses</p>
+                <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+                <p class="font-semibold">$29</p>
+            </div>
+        </div>
+    <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+        <div>
+            <a><img class="w-[280px]" src="./assets/product_4-1.jpg"></a>
+        </div>
+        <div>
+            <p class="text-slate-400">Dresses</p>
+            <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+            <p class="font-semibold">$29</p>
+        </div>
+    </div>
+    <div class="w-[50%] md:w-1/5 mb-8 md:mb-0">
+        <div>
+            <a><img class="w-[280px]" src="./assets/product_3-1.jpg"></a>
+        </div>
+        <div>
+            <p class="text-slate-400">Dresses</p>
+            <h2 class="font-semibold">Cropped Faux Leather Jacket</h2>
+            <p class="font-semibold">$29</p>
+        </div>
+    </div>
+    </div>   
+</section>
+
+<!-- This is the discover more section -->
+
+<section class="mt-4 h-[40vh] md:h-[70vh]">
+    <div class="text-center">
+        <p class="text-slate-400 underline font-semibold">DISCOVER MORE</p>
+    </div>
+    <div class="ml-3 md:ml-12 mt-4 h-full mr-3 md:mr-8">
+        <div class="bg-[url('./assets/secbg.jpg')] w-[98%] h-[90%] bg-cover bg-right md:bg-center">
+            <div class="ml-[50%] md:ml-12 mt-12 md:mt-0 flex flex-col justify-center h-full">
+                <p class="text-red-600 font-semibold mb-2 md:mb-8">DEAL OF THE WEEK</p>
+                <h2 class="text-3xl md:text-7xl font-bold mb-8">Spring Collection</h2>
+                <a class="mt-4 text-lg font-semibold text-red-600 underline">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- This is the bannar section -->
+
+<section class="h-[80vh] mt-12">
+    <div class="flex flex-col md:flex-row h-[100%] justify-center md:justify-evenly m-4 md:m-0">
+    <div class="bg-[url('./assets/banner_1.jpg')] w-[100%] md:w-[45%] h-[70%] bg-cover bg-right ml-0 md:ml-8 mb-2 md:mb-0">
+        <div class="text-white ml-12 flex flex-col justify-center h-full">
+            <p class="font-semibold text-xl">Starting At $19</p>
+            <h2 class="font-bold text-2xl">Women's T-Shirts</h2>
+            <p class="font-semibold underline">SHOP NOW</p>
+        </div>
+    </div>
+    <div class="bg-[url('./assets/banner_2.jpg')] w-[100%] md:w-[45%] h-[70%] bg-cover bg-right mr-0 md:mr-8">
+        <div class="text-white md:text-black ml-12 flex flex-col justify-center h-full">
+            <p class="font-semibold text-xl">Starting At $19</p>
+            <h2 class="font-bold text-2xl">Women's T-Shirts</h2>
+            <p class="font-semibold underline">SHOP NOW</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- this is the limited edition section -->
+
+<section class="mt-12 md:mt-0">
+    <div class="text-center mb-8">
+        <h1 class="font-bold text-3xl">LIMITED EDITION</h1>
+    </div>
+    <div class="w-[100%] flex flex-col md:flex-row items-center justify-center md:justify-evenly">
+        <div class="w-[100%] md:w-[20%] md:ml-0 text-center mb-8 md:mb-0">
+            <img class="ml-auto mr-auto md:ml-0 md:mr-0" src="./assets/product-0-1.jpg">
+            <div>
+                <p class="text-slate-400">Dresses</p>
+                <h2>Hub Accent Mirror</h2>
+                <p>$17</p>
+            </div>
+        </div>
+        <div class="w-[90%] md:w-[20%] md:ml-0 text-center mb-8 md:mb-0">
+            <img class="ml-auto mr-auto md:ml-0 md:mr-0" src="./assets/product-1-1.jpg">
+            <div>
+                <p class="text-slate-400">Dresses</p>
+                <h2>Hub Accent Mirror</h2>
+                <p>$17</p>
+            </div>
+        </div>
+        <div class="w-[90%] md:w-[20%] md:ml-0 text-center mb-8 md:mb-0">
+            <img class="ml-auto mr-auto md:ml-0 md:mr-0" src="./assets/product-2-1.jpg">
+            <div>
+                <p class="text-slate-400">Dresses</p>
+                <h2>Hub Accent Mirror</h2>
+                <p>$17</p>
+            </div>
+        </div>
+        <div class="w-[90%] md:w-[20%] md:ml-0 text-center mb-8 md:mb-0">
+            <img class="ml-auto mr-auto md:ml-0 md:mr-0" src="./assets/product-3-1.jpg">
+            <div>
+                <p class="text-slate-400">Dresses</p>
+                <h2>Hub Accent Mirror</h2>
+                <p>$17</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- This is insta section -->
+
+<section class="hidden md:block mt-12">
+    <div class="text-center">
+        <h2 class="font-bold text-3xl">@UOMO</h2>
+    </div>
+    <div class="flex justify-evenly m-4">
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta1.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta2.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta3.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta4.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta5.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta6.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="flex justify-evenly m-4">
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta1.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta2.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta3.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta4.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta5.jpg">
+            </a>
+        </div>
+        <div class="w-[16%]">
+            <a>
+                <img src="./assets/insta6.jpg">
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- This is the icon section -->
+
+
+<section class="mt-24 mb-20">
+    <div class="flex flex-col md:flex-row justify-evenly">
+    <div class="text-center mb-8 md:mb-0">
+<div class="mt-4 mb-4">
+    <img class="w-[30%] md:w-20 ml-[35%] md:ml-20" src="./assets/global-market-icon.svg">
+</div>
+    <div>
+        <h3 class="mb-4 font-bold">Fast And Free Delivery</h3>
+        <p class="text-slate-600">Free delivery for all orders over $140</p>
+    </div>
+</div>
+    <div class="text-center mb-8 md:mb-0">
+<div class="w-[30%] md:w-20 ml-[38%] md:ml-20">
+    <img class="w-20" src="./assets/headphone-headset-icon.svg">
+</div>
+    <div>
+        <h3 class="mb-4 font-bold">Fast And Free Delivery</h3>
+        <p class="text-slate-600">Free delivery for all orders over $140</p>
+    </div>
+</div>
+    <div class="text-center mb-8 md:mb-0">
+<div class="w-[30%] md:w-20 ml-[38%] md:ml-20">
+    <img class="w-20" src="./assets/shield-checkmark-black-icon.svg">
+</div>
+    <div>
+        <h3 class="mb-4 font-bold">Fast And Free Delivery</h3>
+        <p class="text-slate-600">Free delivery for all orders over $140</p>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- This is footer section -->
+
+<footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 md:px-0">
+      <!-- Column 1 -->
+      <div>
+        <h3 class="font-bold mb-4">GET HELP</h3>
+        <ul>
+          <li class="mb-2"><a href="#" class="hover:underline">Order Status</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Shipping and Delivery</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Returns</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Payment Options</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 2 -->
+      <div>
+        <h3 class="font-bold mb-4">ABOUT</h3>
+        <ul>
+          <li class="mb-2"><a href="#" class="hover:underline">About Us</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Careers</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Press</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Corporate Responsibility</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Investors</a></li>
+        </ul>
+      </div>
+      <!-- Column 3 -->
+      <div>
+        <h3 class="font-bold mb-4">MORE FROM US</h3>
+        <ul>
+          <li class="mb-2"><a href="#" class="hover:underline">Partner With Us</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Affiliates</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Privacy Policy</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Terms of Use</a></li>
+          <li class="mb-2"><a href="#" class="hover:underline">Sitemap</a></li>
+        </ul>
+      </div>
+      <!-- Column 4 -->
+      <div>
+        <h3 class="font-bold mb-4">FOLLOW US</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-12 text-center text-sm text-gray-400">
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+  </footer>  
+</body>
+</html>
